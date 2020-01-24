@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+  <head>
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <title>Galeria Moviles</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="app.animations.css" />
+
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="app.animations.js"></script>
+    <script src="core/core.module.js"></script>
+    <script src="core/checkmark/checkmark.filter.js"></script>
+    <script src="core/phone/phone.module.js"></script>
+    <script src="core/phone/phone.service.js"></script>
+    <script src="phone-list/phone-list.module.js"></script>
+    <script src="phone-list/phone-list.component.js"></script>
+    <script src="phone-detail/phone-detail.module.js"></script>
+    <script src="phone-detail/phone-detail.component.js"></script>
+    <style>
+     #puta{
+       background:#A63348;
+     }
+     span.gorda{
+       color:#fff;
+     }
+     #caca{
+       background-color:#fff;
+     }
+    </style>
+  </head>
+  <body background="http://static.simpledesktops.com/uploads/desktops/2014/07/09/Satellites-Wallpaper.png">
+
+    <div class="view-container">
+      <div ng-view class="view-frame"></div>
+    </div>
+      <footer id="puta"class="page-footer">
+      <p><center>
+      <label>
+        <input type="checkbox" />
+        <span class="gorda">ACEPTAR LA POLITICA DE COOKIES Y DATOS</span>
+      </label>
+      
+    </center></p>
+          <div class="footer-copyright">
+        
+           <p><center>USANDO ANGULAR 8 / <a href="https://github.com/PedroGUR/Hito_01_Angular.git">GITHUB</a></center></p>
+               
+       
+            
+          </div>
+        </footer>
+  </body>
+</html>
